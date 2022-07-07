@@ -67,4 +67,23 @@ a {
   }
 }
 
+main {
+  width: 80%;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 40px;
+
+  img {
+    width: 40%;
+  }
+
+  h2 {
+    font-size: 30px;
+    line-height: 1.2;
+  }
+}
+
 @import "mobile";

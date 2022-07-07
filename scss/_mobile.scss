@@ -11,3 +11,14 @@
     }
   }
 }
+
+@media (max-width: 991px) {
+  main {
+    height: 400px;
+    text-align: center;
+
+    img {
+      display: none;
+    }
+  }
+}

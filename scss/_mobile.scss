@@ -1,6 +1,27 @@
+@media (max-width: 991px) {
+  .showcase {
+    height: 500px;
+  }
+  main {
+    height: 400px;
+    text-align: center;
+    margin-top: 10px;
+
+    img {
+      display: none;
+    }
+  }
+
+  .page {
+    img {
+      display: none;
+    }
+  }
+}
+
 @media (max-width: 700px) {
   .showcase {
-    height: 400px;
+    height: 450px;
 
     &-content {
       text-align: center;
@@ -10,22 +31,10 @@
       }
     }
   }
-
+  main {
+    height: 600px;
+  }
   footer {
     font-size: 14px;
-  }
-}
-
-@media (max-width: 991px) {
-  .showcase {
-    height: 450px;
-  }
-  main {
-    height: 400px;
-    text-align: center;
-
-    img {
-      display: none;
-    }
   }
 }

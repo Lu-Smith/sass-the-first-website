@@ -22,6 +22,10 @@ a {
   text-decoration: none;
 }
 
+h2 {
+  text-align: center;
+  font-size: 30px;
+}
 .showcase {
   @include set-background($primary-color);
   height: 500px;
@@ -86,6 +90,35 @@ main {
   }
 }
 
+.page {
+  @include set-background($primary-color);
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+
+  img {
+    width: 50%;
+    padding: 40px;
+  }
+
+  h2 {
+    font-size: 30px;
+    line-height: 1.2;
+  }
+}
+
+.services {
+  text-align: center;
+  display: flex;
+  div {
+    width: 50%;
+  }
+  img {
+    width: 50%;
+  }
+}
 footer {
   @include set-background($primary-color);
   height: 120px;

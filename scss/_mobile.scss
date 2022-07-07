@@ -10,9 +10,16 @@
       }
     }
   }
+
+  footer {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 991px) {
+  .showcase {
+    height: 450px;
+  }
   main {
     height: 400px;
     text-align: center;

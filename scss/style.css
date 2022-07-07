@@ -265,4 +265,18 @@ footer a:hover {
   footer {
     font-size: 14px;
   }
+
+  .page {
+    text-align: center;
+  }
+
+  .services {
+    display: block;
+  }
+  .services div {
+    width: 100%;
+  }
+  .services a {
+    text-align: center;
+  }
 }/*# sourceMappingURL=style.css.map */

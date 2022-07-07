@@ -37,4 +37,20 @@
   footer {
     font-size: 14px;
   }
+
+  .page {
+    text-align: center;
+  }
+
+  .services {
+    display: block;
+
+    div {
+      width: 100%;
+    }
+
+    a {
+      text-align: center;
+    }
+  }
 }

@@ -16,11 +16,13 @@
 }
 
 .btn-primary {
-  background-color: #66bfbf;
+  background-color: #8acece;
+  color: #fff;
 }
 
 .btn-secondary {
   background-color: #f76b8a;
+  color: #fff;
 }
 
 * {
@@ -45,7 +47,7 @@ a {
 
 .showcase {
   background-color: #66bfbf;
-  color: #eaf6f6;
+  color: #fff;
   height: 600px;
 }
 .showcase nav {
@@ -59,6 +61,9 @@ a {
 }
 .showcase nav li {
   padding: 15px;
+}
+.showcase nav a {
+  color: #fff;
 }
 .showcase nav a:hover {
   color: #f76b8a;
@@ -78,8 +83,4 @@ a {
 .showcase-content h1 {
   font-size: 40px;
   line-height: 1.2;
-}
-
-a {
-  color: #eaf6f6;
 }/*# sourceMappingURL=style.css.map */

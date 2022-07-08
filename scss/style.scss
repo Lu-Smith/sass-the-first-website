@@ -42,14 +42,21 @@ h2 {
 
     li {
       padding: 15px;
+      margin-top: 20px;
     }
 
     a {
       color: set-text-color($primary-color);
     }
-
+    .abutton {
+      margin-top: -10px;
+    }
     a:hover {
       color: $secondary-color;
+    }
+
+    .abutton:hover {
+      color: $primary-color;
     }
   }
 

@@ -146,12 +146,19 @@ h2 {
 }
 .showcase nav li {
   padding: 15px;
+  margin-top: 20px;
 }
 .showcase nav a {
   color: #fff;
 }
+.showcase nav .abutton {
+  margin-top: -10px;
+}
 .showcase nav a:hover {
   color: #f76b8a;
+}
+.showcase nav .abutton:hover {
+  color: #66bfbf;
 }
 .showcase-content {
   height: 100%;
